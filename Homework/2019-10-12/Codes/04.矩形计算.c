@@ -6,6 +6,6 @@ int main(int argc, char const *argv[])
     int area;
     scanf("%d %d", &x, &y);
     area = x * y;
-    printf("The area is %d.", area);
+    printf("%d", area);
     return 0;
 }

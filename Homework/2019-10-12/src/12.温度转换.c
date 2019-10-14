@@ -2,8 +2,8 @@
 
 int main(int argc, char const *argv[])
 {
-    double F, C;
-    scanf("%lf", &F);
+    float F, C;
+    scanf("%f", &F);
     C = 5.0/9.0 * (F - 32);
     printf("%.2f", C);
 

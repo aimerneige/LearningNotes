@@ -2,10 +2,10 @@
 
 int main(int argc, char const *argv[])
 {
-    double v, t, a, x;
-    scanf("%lf %lf %lf", &v, &t, &a);
-    x = v * t + 1/2 * a * t * t;
-    printf("%.2f", x);
+    float v0, t, a, S;
+    scanf("%f %f %f", &v0, &a, &t);
+    S = v0 * t + 1.0/2.0 * a * t * t;
+    printf("%.2f", S);
 
     return 0;
 }
